@@ -9,6 +9,8 @@ import {
 import Dashboard from './Dashboard';
 import Login from './Login';
 import './css/App.css';
+import Registro from './Registro';
+import PasswordReset from './PasswordReset';
 
 
 function App() {
@@ -32,15 +34,18 @@ function App() {
 
     <Router>
         <Switch>
-          <Route exact path="/about">
-
+          <Route exact path="/PasswordReset">
+              <PasswordReset/>
           </Route>
-          <Route exact path="/users">
+          <Route exact path="/SignUp">
+            <Registro/>
+          </Route>
+          <Route exact path="/Dashboard">
               <Dashboard/>
           </Route>
           <Route exact path="/">
               {
-                localStorage.getItem("token") != null ? <Redirect to="/users"/> : <Login setToken={setToken}
+                localStorage.getItem("token") != null ? <Redirect to="/Dashboard"/> : <Login setToken={setToken}
                  setUserError={setUserError} 
                 userError={userError}
                 getToken={getToken}

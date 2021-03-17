@@ -6,12 +6,14 @@ import React, { Fragment, useState } from 'react';
   import phones from './img/front.png';
   import { auth } from './firebase';
   import firebase from 'firebase';
+  import ReactLoading from 'react-loading';
 
 const Login = (props) => {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [user, setUser] = useState(null);
+    const [loading, setLoading] = useState(false);
 
 
     const submit = () =>{
@@ -31,11 +33,16 @@ const Login = (props) => {
                   uid: userAuth.uid,
                   email: userAuth.email
               }
-                console.log(userAuth)
-                setUser(user);
-                props.setToken(userAuth.uid);
-                props.getToken();
-                window.location.reload(true); 
+
+              setLoading(true)
+                setTimeout(() => {
+                    console.log(userAuth)
+                    setUser(user);
+                    props.setToken(userAuth.uid);
+                    props.getToken();
+                    window.location.reload(true); 
+                  }, 4000);
+
 
                } else{
                 setUser(null)
@@ -51,7 +58,7 @@ const Login = (props) => {
         firebase.auth().signInWithPopup(provider).then(result =>{
             props.setToken(result.credential['accessToken']);
             props.getToken();
-            window.location.reload(true);
+            window.location.href = "/Dashboard";
 
         })
         .catch(error =>{
@@ -89,7 +96,12 @@ const Login = (props) => {
               <div className="form-input">
                   {
                     password.length >= 6 ? (
-                      <button className="form-input-btn-log sig2" onClick={submit}>Iniciar sesión</button>
+                        <button className="form-input-btn-log sig2" onClick={submit}>
+                          {
+                              loading ? <ReactLoading type="spokes" color="#fff" height={16} width={16} />
+                              : <p>Iniciar sesión</p>
+                          }
+                        </button>
                       ):(
                        <button className="form-input-btn-log sig1">Iniciar sesión</button>
                     )
@@ -118,13 +130,13 @@ const Login = (props) => {
               </div>
 
               <div className=" passwordForget">
-                <p className="pflog">¿Has olvidado la contraseña?</p>
+                <a className="pflog" href="/PasswordReset">¿Has olvidado la contraseña?</a>
               </div>
              
             </div>
 
             <div className="signup">
-                <p className="regtext">¿No tienes una cuenta? <a className="regbtn">Regístrate</a></p>
+                <p className="regtext">¿No tienes una cuenta? <a className="regbtn" href="/SignUp">Regístrate</a></p>
             </div>
 
             <div className="apps-av">
