@@ -1,23 +1,56 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect
+} from "react-router-dom";
+import Dashboard from './Dashboard';
+import Login from './Login';
+import './css/App.css';
+
 
 function App() {
+
+
+  const [token, setToken] = useState(null);
+  const [userError, setUserError] = useState(null);
+
+  const getToken = () =>{
+    if(token != null){
+      localStorage.setItem("token", token);
+
+    }else{
+      localStorage.setItem("token", null);
+    }
+  }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <Router>
+        <Switch>
+          <Route exact path="/about">
+
+          </Route>
+          <Route exact path="/users">
+              <Dashboard/>
+          </Route>
+          <Route exact path="/">
+              {
+                localStorage.getItem("token") != null ? <Redirect to="/users"/> : <Login setToken={setToken}
+                 setUserError={setUserError} 
+                userError={userError}
+                getToken={getToken}
+                />
+              }
+          </Route>
+        </Switch>
+
+    </Router>
+
     </div>
   );
 }
