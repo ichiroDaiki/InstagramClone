@@ -14,41 +14,36 @@ const Login = (props) => {
     const [password, setPassword] = useState('');
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(false);
+    const [errores, setErrores] = useState('');
 
 
     const submit = () =>{
-        props.setUserError(null);
         auth.signInWithEmailAndPassword(email, 
             password).then(user=>{
                 console.log(user)
+                setUser("log in")
             }).catch(err=>{
-                console.log("errores: " , err.message)
-                props.setUserError(err.message);
+                console.log("errores: " , err)
+                setErrores(err.code);
             })
 
-            const unsucribe = auth.onAuthStateChanged
-            (userAuth => {
-               if(userAuth){
-                const user = {
-                  uid: userAuth.uid,
-                  email: userAuth.email
-              }
+               if(user === "log in"){
 
-              setLoading(true)
-                setTimeout(() => {
-                    console.log(userAuth)
-                    setUser(user);
-                    props.setToken(userAuth.uid);
-                    props.getToken();
-                    window.location.reload(true);
-                    setLoading(false); 
-                  }, 4000);
+                setLoading(true)
+                  setTimeout(() => {
+                      console.log()
+                      setUser(user);
+                      props.setToken();
+                      props.getToken();
+                      window.location.href = "/Dashboard";
+                      setLoading(false); 
+                    }, 4000);
 
 
                } else{
-                setUser(null)
+                  setUser(null)
                }
-            })
+
             
     }
 
@@ -63,6 +58,7 @@ const Login = (props) => {
 
         })
         .catch(error =>{
+            setErrores(error.code);
             console.log(error);
         })
 
@@ -122,7 +118,7 @@ const Login = (props) => {
 
               <div className="login-error">
                 {
-                  props.userError != null ? (
+                  errores != '' ? (
                       <p>Comprueba tu email o contraseña</p>
                   ) : (
                         <p></p>

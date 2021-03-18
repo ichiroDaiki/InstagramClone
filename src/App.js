@@ -17,14 +17,14 @@ function App() {
 
 
   const [token, setToken] = useState(null);
-  const [userError, setUserError] = useState(null);
+  const [userError, setUserError] = useState('');
 
   const getToken = () =>{
     if(token != null){
       localStorage.setItem("token", token);
 
     }else{
-      localStorage.setItem("token", null);
+      localStorage.setItem("token", '');
     }
   }
 
