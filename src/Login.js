@@ -40,7 +40,8 @@ const Login = (props) => {
                     setUser(user);
                     props.setToken(userAuth.uid);
                     props.getToken();
-                    window.location.reload(true); 
+                    window.location.reload(true);
+                    setLoading(false); 
                   }, 4000);
 
 
