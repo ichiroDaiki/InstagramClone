@@ -1,0 +1,168 @@
+.reg{
+    width: 100%;
+    height: 100vh;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg-form{
+    width: 25%;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #bebebe;
+    padding: 5px;
+}
+
+.log-form{
+    width: 25%;
+    height: 10vh;
+    background-color: #fff;
+    border: 1px solid #bebebe;
+    margin-top: 10px;
+}
+
+.ph-reg-form{
+    width: 100%;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+}
+
+.ph-reg-title{
+    font-size: 17px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #8E8E8E;
+}
+
+.ph-img{
+    width: 190px;
+    height: auto;
+}
+
+.btn-reg-log{
+    margin-top: 20px;
+    width: 80%;
+    height: 30px;
+    background-color: #0095F6;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.facebook-reg{
+    margin-top: 10px;
+    width: 78%;
+    height: 5vh;
+    background-color: #0095f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 4px;
+}
+
+.facebookIcon-reg{
+    font-size: 18px;
+    color: #fff;
+}
+
+.facebook-reg-p{
+    color: #fff;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.or-reg{
+    width: 100%;
+    height: 30px;
+    color: #bebebe;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.ray1-reg, .ray2-reg{
+    width: 95px;
+    height: 1px;
+    background-color: #bebebe;
+    margin: 25px;
+}
+
+.ro-reg{
+    font-size: 13px;
+    color: #928E8E;
+    font-weight: 500;
+}
+
+.reg-form-form{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reg-input{
+    width: 80%;
+    height: 6vh;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid #bebebe;
+    padding-left: 7px;
+    background-color: #FAFAFA;
+    font-size: 12px;
+}
+
+.btn-reg-1{
+    width: 80%;
+    height: 5vh;
+    background-color: #B2DFFC;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn-reg-2{
+    width: 80%;
+    height: 5vh;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.is-error{
+    font-size: 12px;
+    color: red;
+}
+
+.log-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn-reg{
+    font-size: 14px;
+}

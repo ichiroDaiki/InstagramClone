@@ -18,7 +18,6 @@ function App() {
 
   const [token, setToken] = useState(null);
   const [userError, setUserError] = useState('');
-
   const getToken = () =>{
     if(token != null){
       localStorage.setItem("token", token);
@@ -38,7 +37,7 @@ function App() {
               <PasswordReset/>
           </Route>
           <Route exact path="/SignUp">
-            <Registro/>
+            <Registro />
           </Route>
           <Route exact path="/Dashboard">
               <Dashboard/>
