@@ -1,4 +1,3 @@
-**#How to run the WebApp?**
-
+###### HOW TO RUN
 NPM START
 
