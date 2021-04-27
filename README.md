@@ -1,5 +1,5 @@
 # Instagram Clone
-Develop in ReactJS Framework using Firebase like a backend
+Develop in ReactJS Framework using Firebase like a backend, Develop By Jostick Omar Quiel Espinosa
 
 ## NPM INSTALL
 Use the package manager [npm](https://www.npmjs.com/get-npm) to install all the packages that the porject needs to run in your computer
