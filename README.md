@@ -1,3 +1,3 @@
-###### HOW TO RUN
+######HOW TO RUN
 NPM START
 
