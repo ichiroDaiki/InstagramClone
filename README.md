@@ -8,3 +8,12 @@ After you install NPM, open a terminal inside the folder of the project, then ru
 ```bash
 npm install
 ```
+
+## NPM START
+After you instalation, you can run the webapp with
+```bash
+npm start
+```
+
+## Usage
+Now you can use the web app like the original instagram
