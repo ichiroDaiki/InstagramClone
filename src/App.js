@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
   Redirect
 } from "react-router-dom";
 import Dashboard from './Dashboard';
@@ -18,6 +17,7 @@ function App() {
 
   const [token, setToken] = useState(null);
   const [userError, setUserError] = useState('');
+
   const getToken = () =>{
     if(token != null){
       localStorage.setItem("token", token);

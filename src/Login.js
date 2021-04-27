@@ -12,36 +12,34 @@ const Login = (props) => {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(false);
     const [errores, setErrores] = useState('');
 
 
     const submit = () =>{
+
+      const dataUser = [];
+
         auth.signInWithEmailAndPassword(email, 
             password).then(user=>{
-                console.log(user)
-                setUser("log in")
+                dataUser.push(user.user['uid']);
             }).catch(err=>{
                 console.log("errores: " , err)
                 setErrores(err.code);
             })
 
-               if(user === "log in"){
-
+               if(dataUser['0'] != ''){
                 setLoading(true)
                   setTimeout(() => {
-                      console.log()
-                      setUser(user);
-                      props.setToken();
+                      setLoading(false); 
+                      props.setToken(dataUser['0']);
                       props.getToken();
                       window.location.href = "/Dashboard";
-                      setLoading(false); 
                     }, 4000);
 
 
                } else{
-                  setUser(null)
+
                }
 
             
