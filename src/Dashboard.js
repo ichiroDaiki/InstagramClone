@@ -11,6 +11,7 @@ import {
     Redirect
   } from "react-router-dom";
 import Welcome from './panel-primary/Welcome';
+import Profile from './panel-primary/Profile';
 
 
 const Dashboard = () => {
@@ -56,12 +57,12 @@ const Dashboard = () => {
                             <div class="navbar-item has-dropdown is-hoverable">
 
                             <img className="icon-p-user" 
-                            src="https://instagram.fdav1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/164034721_1112178339297092_927245359982130983_n.jpg?tp=1&_nc_ht=instagram.fdav1-1.fna.fbcdn.net&_nc_ohc=WicjfEN0nJUAX8pIbGm&ccb=7-4&oh=a1b0c8be170bc7d5a6720dfdfbe494db&oe=60837F05&_nc_sid=01e9e1"/>
+                            src="https://scontent-mia3-2.cdninstagram.com/v/t51.2885-19/s320x320/47583400_308652296442406_1388205207560650752_n.jpg?tp=1&_nc_ht=scontent-mia3-2.cdninstagram.com&_nc_ohc=SpzWWMIga2MAX9CKAg8&edm=ABfd0MgAAAAA&ccb=7-4&oh=85b277d0084e96e1d09948f683a5e9a7&oe=60A8B3D9&_nc_sid=7bff83"/>
 
                                         <div class="navbar-dropdown is-boxed is-right">
-                                            <a class="navbar-item" >
+                                            <Link class="navbar-item"  to="/Dashboard/Profile">
                                                 <i class="far fa-user-circle"></i> <span className="dr-txt">Perfil</span>
-                                            </a>
+                                            </Link>
 
                                             <a class="navbar-item" >
                                                 <i class="far fa-bookmark"></i> <span className="dr-txt">Guardado</span>
@@ -90,6 +91,9 @@ const Dashboard = () => {
                         </Route>
                         <Route exact path="/Dashboard/Explore">
                             <h1>Hola 3</h1>
+                        </Route>
+                        <Route exact path="/Dashboard/Profile">
+                            <Profile/>
                         </Route>
                     </Switch>
             </div>

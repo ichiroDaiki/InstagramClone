@@ -1,0 +1,162 @@
+.componentProfile{
+    width: 100%;
+    height: 90vh;
+    background-color: #fafafa;
+}
+
+.profileGeneralInformation{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.pgi-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    height: 35vh;
+    background-color: #fafafa;
+}
+
+.pgi-img-photo{
+    padding: 3px;
+    border: 1px solid #111;
+    border-radius: 50%;
+    width: 190px;
+}
+
+.pgi-p-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 35vh;
+    background-color: #fafafa;
+}
+
+.pgi-p-name{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fafafa;
+}
+.pgi-p-name h1{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.pgi-p-name i{
+    font-size: 20px;
+}
+
+.pgi-p-n-b{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 202, 202);
+    background-color: #fafafa;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.pgi-status{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fafafa;
+    padding-left: 4px;
+}
+
+.pgi-sp{
+    margin-left: 20px;
+}
+
+.pgi-bio{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+    background-color: #fafafa;
+    padding-left: 25px;
+}
+
+.pgi-bio h4{
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.pgi-bio p{
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+
+
+
+.tabs-pgi{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tab-pgi{
+    width: 60%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tab-pgi ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-top: .9px solid #bbbbbb;
+}
+
+.tabs-pgi ul>li{
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.tab-li-pgi{
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: #bbbbbb;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.tab-li-pgi:hover{
+    color: #111;
+}
+
+.tab-li-pgi i{
+    margin-right: 3px;
+}
+
+.content-profile{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

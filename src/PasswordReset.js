@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import 'bulma/css/bulma.css';
 import './css/PasswordReset.css';
 import igIcon from './img/ig.png';
 import lockIcon from './img/lock.png';
