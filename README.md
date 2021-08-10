@@ -1,8 +1,8 @@
 # Instagram Clone
 Develop in ReactJS Framework using Firebase like a backend, Develop By **Jostick Omar Quiel Espinosa**
 
-## Fotografia de la calculadora
-- [Ver Fotos](https://cloud.degoo.com/share/uTbnGwOZ2VsKuIjVWO97Cw)
+## Fotografia
+- [Ver Fotos](https://cloud.degoo.com/share/NIZQDS83HpoOVhlZftOMNA)
 
 
 ![Alt text](https://lh3.googleusercontent.com/B3q2mzrcbGtpd5uKqFVngutT7rCtdRfKfcYrOikSP8dAJnoozWpQwBCJevium-0u9e_OmZiDOiY5AMvKhwxdml7mU6x3JEHiIKSKSA=w1366-h661-rw-sm-pa-nu-v0)
