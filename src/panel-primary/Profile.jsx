@@ -19,7 +19,7 @@ const Profile = () => {
             <div className="profileGeneralInformation">
                
                <div className="pgi-photo">
-                    <HistoryProfile dstyles="pgi-img-photo" historyimg="https://scontent-mia3-2.cdninstagram.com/v/t51.2885-19/s320x320/47583400_308652296442406_1388205207560650752_n.jpg?tp=1&_nc_ht=scontent-mia3-2.cdninstagram.com&_nc_ohc=SpzWWMIga2MAX9CKAg8&edm=ABfd0MgAAAAA&ccb=7-4&oh=85b277d0084e96e1d09948f683a5e9a7&oe=60A8B3D9&_nc_sid=7bff83"/>
+                    <HistoryProfile dstyles="pgi-img-photo" historyimg="https://www.dzoom.org.es/wp-content/uploads/2010/09/mirada-ojos-encuadre-primer-plano-sexy-810x540.jpg"/>
                     
                     <div className="pgi-p-info">
                         
