@@ -49,7 +49,7 @@ const Registro = (props) => {
             
             let nameuser = users.usuarios[i].username;
 
-            if(nameuser == UsernameExist){
+            if(nameuser === UsernameExist){
                 console.log("ya existe");
                 setErrorUserExist(true)
                 verify = true;

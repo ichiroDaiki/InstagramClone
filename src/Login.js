@@ -28,7 +28,7 @@ const Login = (props) => {
                 setErrores(err.code);
             })
 
-               if(dataUser['0'] != ''){
+               if(dataUser['0'] !== ''){
                 setLoading(true)
                   setTimeout(() => {
                       setLoading(false); 
