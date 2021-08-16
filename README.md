@@ -1,7 +1,13 @@
 # Instagram Clone
 Develop in ReactJS Framework using Firebase like a backend, Develop By **Jostick Omar Quiel Espinosa**
 
-# Test in 
+# Production
+Data to Log In
+username: test
+password: 123456
+
+if you want you can Sign Up and then Log In
+
 - [https://instagram-clone-4ij5ww9v2-jostickdev.vercel.app/]
 
 ## Fotografia
