@@ -2,6 +2,13 @@
 Develop in ReactJS Framework using Firebase like a backend, Develop By **Jostick Omar Quiel Espinosa**
 
 # Production
+
+Vercel
+- [https://instagram-clone-4ij5ww9v2-jostickdev.vercel.app/]
+
+Netlify
+- [https://agitated-jepsen-64b06c.netlify.app/]
+
 ```bash
 Data to Log In
 username: test
@@ -10,11 +17,7 @@ password: 123456
 ```bash
 if you want you can Sign Up and then Log In
 ```
-Vercel
-- [https://instagram-clone-4ij5ww9v2-jostickdev.vercel.app/]
 
-Netlify
-- [https://agitated-jepsen-64b06c.netlify.app/]
 
 ## Fotografia
 - [Ver Fotos](https://cloud.degoo.com/share/NIZQDS83HpoOVhlZftOMNA)
