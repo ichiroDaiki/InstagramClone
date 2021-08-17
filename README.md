@@ -6,9 +6,6 @@ Develop in ReactJS Framework using Firebase like a backend, Develop By **Jostick
 Vercel
 - [https://instagram-clone-4ij5ww9v2-jostickdev.vercel.app/]
 
-Netlify
-- [https://agitated-jepsen-64b06c.netlify.app/]
-
 ```bash
 Data to Log In
 username: test
