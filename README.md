@@ -11,10 +11,6 @@ Data to Log In
 username: test
 password: 123456
 ```
-```bash
-if you want you can Sign Up and then Log In
-```
-
 
 ## Fotografia
 - [Ver Fotos](https://cloud.degoo.com/share/NIZQDS83HpoOVhlZftOMNA)
