@@ -66,8 +66,8 @@ const Login = (props) => {
 
         <Fragment>
             <div className="lform">
-            <img src={phones}/>
-        </div>
+              <img src={phones}/>
+            </div>
 
         <div className="rform">
 

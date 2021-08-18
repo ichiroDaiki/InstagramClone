@@ -13,204 +13,853 @@
     background-color: #FAFAFA;
 }
 
-.rform{
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: center;
-    flex-direction: column;
-    background-color: #FAFAFA;
-    padding-left: 50px;
+
+
+@media (max-width: 3840px) and (min-width: 2160px) {
+    
+    .rform{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+        flex-direction: column;
+        background-color: #FAFAFA;
+        padding-left: 50px;
+    }
+    
+    .lform{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #FAFAFA;
+    }
+    
+    .lform img{
+        width: 80%;
+    }
+
+    .signIn{
+        width: 80%;
+        height: 50vh;
+        background-color: #fff;
+        border: 1px solid rgb(219, 219, 219);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .title-form{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    
+    }
+
+    .title-form img{
+        width: 40%;
+    }
+    
+    .form-input{
+        width: 100%;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        background-color: #fff;
+    }
+    
+    .input-log{
+        width: 60%;
+        height: 60%;
+        border: 1px solid #bebebe;
+        background-color: #FAFAFA;
+        border-radius: 3px;
+        padding-left: 10px;
+        font-size: 35px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .form-input-btn-log{
+        width: 60%;
+        height: 50%;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    
+    .sig1{
+        background-color: #B2DFFC;
+    }
+    
+    .sig2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0095F6;
+    }
+    
+    .load{
+        background-color: #0095F6;
+    }
+    
+    .or{
+        width: 100%;
+        height: 10%;
+        color: #bebebe;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .ray1, .ray2{
+        width: 30%;
+        height: 1px;
+        background-color: #bebebe;
+        margin: 25px;
+    }
+    
+    .ro{
+        font-size: 13px;
+        color: #928E8E;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    
+    .facebook-login{
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+        font-weight: 600;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .facebook-login-p{
+        background-color: #fff;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    
+    .facebookIcon{
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .passwordForget{
+        background-color: #fff;
+        margin-top: 5px;
+        font-size: 35px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .pflog{
+        background-color: #fff;
+        color: #00376b;
+    }
+    
+    .signup{
+        margin-top: 20px;
+        width: 80%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid rgb(219, 219, 219);
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-size: 35px;
+    }
+    
+    .regbtn{
+        color: #0095f6;
+        font-weight: 620;
+        background-color: #fff;
+        cursor: pointer;
+    }
+    
+    .regtext{
+        background-color: #fff;
+    }
+    
+    .apps-av{
+        margin-top: 20px;
+        width: 80%;
+        height: 12vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        flex-direction: column;
+    
+    }
+    
+    .appis{
+        margin-top: 15px;
+        margin-left: 10px;
+        width: 40%;
+        cursor: pointer;
+    }
+    
+    
+    .login-error{
+        font-size: 14px;
+        margin: 10px;
+    }
+    
+    .login-error p{
+        background-color: #fff;
+        color: red;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+
 }
 
-.lform{
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #FAFAFA;
+
+@media (max-width: 2560px) and (min-width: 1440px) {
+    
+    .rform{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+        flex-direction: column;
+        background-color: #FAFAFA;
+        padding-left: 50px;
+    }
+    
+    .lform{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #FAFAFA;
+    }
+    
+    .lform img{
+        width: 70%;
+    }
+
+    .signIn{
+        width: 80%;
+        height: 65vh;
+        background-color: #fff;
+        border: 1px solid rgb(219, 219, 219);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .title-form{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    
+    }
+
+    .title-form img{
+        width: 30%;
+    }
+    
+    .form-input{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        background-color: #fff;
+    }
+    
+    .input-log{
+        width: 60%;
+        height: 80%;
+        border: 1px solid #bebebe;
+        background-color: #FAFAFA;
+        border-radius: 3px;
+        padding-left: 10px;
+        font-size: 30px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .form-input-btn-log{
+        width: 60%;
+        height: 50%;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    
+    .sig1{
+        background-color: #B2DFFC;
+    }
+    
+    .sig2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0095F6;
+    }
+    
+    .load{
+        background-color: #0095F6;
+    }
+    
+    .or{
+        width: 100%;
+        height: 10%;
+        color: #bebebe;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .ray1, .ray2{
+        width: 30%;
+        height: 1px;
+        background-color: #bebebe;
+        margin: 25px;
+    }
+    
+    .ro{
+        font-size: 13px;
+        color: #928E8E;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    
+    .facebook-login{
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+        font-weight: 600;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .facebook-login-p{
+        background-color: #fff;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    
+    .facebookIcon{
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .passwordForget{
+        background-color: #fff;
+        margin-top: 5px;
+        font-size: 35px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .pflog{
+        background-color: #fff;
+        color: #00376b;
+    }
+    
+    .signup{
+        margin-top: 20px;
+        width: 80%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid rgb(219, 219, 219);
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-size: 35px;
+    }
+    
+    .regbtn{
+        color: #0095f6;
+        font-weight: 620;
+        background-color: #fff;
+        cursor: pointer;
+    }
+    
+    .regtext{
+        background-color: #fff;
+    }
+    
+    .apps-av{
+        margin-top: 20px;
+        width: 80%;
+        height: 12vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        flex-direction: column;
+    
+    }
+    
+    .appis{
+        margin-top: 15px;
+        margin-left: 10px;
+        width: 40%;
+        cursor: pointer;
+    }
+    
+    
+    .login-error{
+        font-size: 14px;
+        margin: 10px;
+    }
+    
+    .login-error p{
+        background-color: #fff;
+        color: red;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+
 }
 
-.signIn{
-    width: 55%;
-    height: 60vh;
-    background-color: #fff;
-    border: 1px solid rgb(219, 219, 219);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+@media (max-width: 1366px) and (min-width: 768px) {
+    
+    .rform{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+        flex-direction: column;
+        background-color: #FAFAFA;
+
+    }
+    
+    .lform{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #FAFAFA;
+    }
+    
+    .signIn{
+        width: 55%;
+        height: 60vh;
+        background-color: #fff;
+        border: 1px solid rgb(219, 219, 219);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .title-form{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    
+    }
+    
+    .form-input{
+        width: 100%;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        background-color: #fff;
+    }
+    
+    .input-log{
+        width: 275px;
+        height: 36px;
+        border: 1px solid #bebebe;
+        background-color: #FAFAFA;
+        border-radius: 3px;
+        padding-left: 10px;
+        font-size: 12px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .form-input-btn-log{
+        width: 280px;
+        height: 30px;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .sig1{
+        background-color: #B2DFFC;
+    }
+    
+    .sig2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0095F6;
+    }
+    
+    .load{
+        background-color: #0095F6;
+    }
+    
+    .or{
+        width: 100%;
+        height: 30px;
+        color: #bebebe;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .ray1, .ray2{
+        width: 105px;
+        height: .5px;
+        background-color: #bebebe;
+        margin: 25px;
+    }
+    
+    .ro{
+        font-size: 13px;
+        color: #928E8E;
+        font-weight: 500;
+    }
+    
+    .facebook-login{
+        background-color: #fff;
+        font-weight: 600;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .facebook-login-p{
+        background-color: #fff;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .facebookIcon{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    
+    .passwordForget{
+        background-color: #fff;
+        margin-top: 5px;
+        font-size: 13px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .pflog{
+        background-color: #fff;
+        color: #00376b;
+    }
+    
+    .signup{
+        margin-top: 20px;
+        width: 55%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid rgb(219, 219, 219);
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-size: 14px;
+    }
+    
+    .regbtn{
+        color: #0095f6;
+        font-weight: 620;
+        background-color: #fff;
+        cursor: pointer;
+    }
+    
+    .regtext{
+        background-color: #fff;
+    }
+    
+    .apps-av{
+        margin-top: 20px;
+        width: 55%;
+        height: 12vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FAFAFA;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        flex-direction: column;
+    
+    }
+    
+    .appis{
+        margin-top: 15px;
+        margin-left: 10px;
+        width: 130px;
+        cursor: pointer;
+    }
+    
+    
+    .login-error{
+        font-size: 14px;
+        margin: 10px;
+    }
+    
+    .login-error p{
+        background-color: #fff;
+        color: red;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+
 }
 
-.title-form{
-    width: 100%;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .rform{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #FAFAFA;
+    }
+    
+    .lform{
 
-}
+        display: none;
+    }
+    
+    .signIn{
+        width: 80%;
+        height: 60vh;
+        background-color: #fff;
+        border: 1px solid rgb(219, 219, 219);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .title-form{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    
+    }
 
-.form-input{
-    width: 100%;
-    height: 6vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    background-color: #fff;
-}
-
-.input-log{
-    width: 275px;
-    height: 36px;
-    border: 1px solid #bebebe;
-    background-color: #FAFAFA;
-    border-radius: 3px;
-    padding-left: 10px;
-    font-size: 12px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-}
-
-.form-input-btn-log{
-    width: 280px;
-    height: 30px;
-    border: none;
-    color: #fff;
-    border-radius: 5px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-.sig1{
-    background-color: #B2DFFC;
-}
-
-.sig2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0095F6;
-}
-
-.load{
-    background-color: #0095F6;
-}
-
-.or{
-    width: 100%;
-    height: 30px;
-    color: #bebebe;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-}
-
-.ray1, .ray2{
-    width: 105px;
-    height: .5px;
-    background-color: #bebebe;
-    margin: 25px;
-}
-
-.ro{
-    font-size: 13px;
-    color: #928E8E;
-    font-weight: 500;
-}
-
-.facebook-login{
-    background-color: #fff;
-    font-weight: 600;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-}
-
-.facebook-login-p{
-    background-color: #fff;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-.facebookIcon{
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
-
-.passwordForget{
-    background-color: #fff;
-    margin-top: 5px;
-    font-size: 13px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-}
-
-.pflog{
-    background-color: #fff;
-    color: #00376b;
-}
-
-.signup{
-    margin-top: 20px;
-    width: 55%;
-    height: 8vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    border: 1px solid rgb(219, 219, 219);
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    font-size: 14px;
-}
-
-.regbtn{
-    color: #0095f6;
-    font-weight: 620;
-    background-color: #fff;
-    cursor: pointer;
-}
-
-.regtext{
-    background-color: #fff;
-}
-
-.apps-av{
-    margin-top: 20px;
-    width: 55%;
-    height: 12vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FAFAFA;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    flex-direction: column;
-
-}
-
-.appis{
-    margin-top: 15px;
-    margin-left: 10px;
-    width: 130px;
-    cursor: pointer;
-}
-
-
-.login-error{
-    font-size: 14px;
-    margin: 10px;
-}
-
-.login-error p{
-    background-color: #fff;
-    color: red;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    .title-form img{
+        width: 40%;
+    }
+    
+    .form-input{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        background-color: #fff;
+    }
+    
+    .input-log{
+        width: 70%;
+        height: 50%;
+        border: 1px solid #bebebe;
+        background-color: #FAFAFA;
+        border-radius: 3px;
+        padding-left: 10px;
+        font-size: 35px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .form-input-btn-log{
+        width: 70%;
+        height: 50%;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+    .sig1{
+        background-color: #B2DFFC;
+    }
+    
+    .sig2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0095F6;
+    }
+    
+    .load{
+        background-color: #0095F6;
+    }
+    
+    .or{
+        width: 100%;
+        height: 50px;
+        color: #bebebe;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .ray1, .ray2{
+        width: 30%;
+        height: 1px;
+        background-color: #bebebe;
+        margin: 25px;
+    }
+    
+    .ro{
+        font-size: 20px;
+        color: #928E8E;
+        font-weight: 500;
+    }
+    
+    .facebook-login{
+        width: 100%;
+        height: 7vh;
+        background-color: #fff;
+        font-weight: 600;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .facebook-login-p{
+        background-color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+    .facebookIcon{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    
+    .passwordForget{
+        background-color: #fff;
+        margin-top: 5px;
+        font-size: 25px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    .pflog{
+        background-color: #fff;
+        color: #00376b;
+    }
+    
+    .signup{
+        margin-top: 20px;
+        width: 80%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid rgb(219, 219, 219);
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-size: 25px;
+    }
+    
+    .regbtn{
+        color: #0095f6;
+        font-weight: 620;
+        background-color: #fff;
+        cursor: pointer;
+    }
+    
+    .regtext{
+        background-color: #fff;
+    }
+    
+    .apps-av{
+        margin-top: 20px;
+        width: 80%;
+        height: 12vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FAFAFA;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-size: 35px;
+        flex-direction: column;
+    
+    }
+    
+    .appis{
+        margin-top: 15px;
+        margin-left: 10px;
+        width: 40%;
+        cursor: pointer;
+    }
+    
+    
+    .login-error{
+        font-size: 14px;
+        margin: 10px;
+    }
+    
+    .login-error p{
+        background-color: #fff;
+        color: red;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    
+    
 }
