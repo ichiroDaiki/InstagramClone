@@ -3,9 +3,6 @@ Develop in ReactJS Framework using Firebase like a backend, Develop By **Jostick
 
 # Production
 
-Vercel
-- [https://instagram-clone-4ij5ww9v2-jostickdev.vercel.app/]
-
 ```bash
 Data to Log In
 username: test
